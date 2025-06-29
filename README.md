@@ -1,5 +1,5 @@
-## 1/- Suppose we put all the functions inside the same service. Is this the
-## recommended approach ? Please explain.
+1/- Suppose we put all the functions inside the same service. 
+Is this the recommended approach ? Please explain.
 
 **Regrouper toutes les fonctionnalités dans un seul service n'est pas recommandé.**
 
@@ -15,9 +15,9 @@ Séparer les responsabilités en plusieurs services spécialisés :
 
 ---
 
-## 2/- In this design, we chose to have a function setRoom(..) that should
-## not impact the previous bookings. What is another way ? What is your
-## recommendation ? Please explain and justify.
+ 2/- In this design, we chose to have a function setRoom(..) that should
+ not impact the previous bookings. What is another way ? What is your
+ recommendation ? Please explain and justify.
 
 ###  Recommandation :
 
